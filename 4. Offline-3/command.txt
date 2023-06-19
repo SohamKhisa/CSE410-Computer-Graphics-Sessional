@@ -1,0 +1,12 @@
+# To install OpenGL and GLUT:
+
+$ sudo apt-get update
+$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+
+To Compile the Program
+
+$ g++ 1705120_Main.cpp -o 1705120 -lglut -lGLU -lGL
+
+To run:
+./1705120

@@ -1,0 +1,7 @@
+$ sudo apt-get update
+
+//NOTE: already installed
+$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+//NOTE: to compile OpenGL Program
+$ g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL
